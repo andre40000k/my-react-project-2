@@ -2,6 +2,7 @@ import React from "react";
 import ControlledForm from "./components/ControlledComponent";
 import UnControlledForm from "./components/UncontrolledComponent";
 import DataFetcher from "./components/DataFetcherComponent";
+import DataFetchingAXIOS from "./components/DataFetcherComponentAXIOS";
 
 const App = () => {
   return (
@@ -16,6 +17,9 @@ const App = () => {
 
       <h2 style={{ color: "green" }}>Fetched Data</h2>
       <DataFetcher/>
+
+      <h2 style={{ color: "green" }}>Fetched Data AXIOS</h2>
+      <DataFetchingAXIOS />
     </div>
   );
 };
